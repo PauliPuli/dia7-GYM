@@ -1,0 +1,72 @@
+*{
+    margin: 100;
+    padding: 100;
+
+}
+:root {
+    .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+}
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.titulo{
+    font-size: 18pt;
+    padding: 10px;
+}
+
+.container {
+    margin: 30px auto;
+    max-width: 1000px;
+    align-content: center;
+}
+.listado {
+    margin: 30px auto;
+    max-width: 1500px;
+    align-content: center;
+}
+
+
+.rutinas{
+    display: flex;
+    gap: 15px;
+    max-width: 1200px;
+    flex-wrap:wrap;
+}
+.espaciado{
+    margin: 10px;
+}
+
+.card {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #68a8e7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="/enviar" method="post">
+        <fieldset>
+          <legend class="titulo">Agregar nuevo ejercicio</legend>
+          <div class="espaciado">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="Nombre" id="nombre" />
+          </div>
+          <div class="espaciado">
+            <label for="series">Series</label>
+            <input type="number" name="Series" id="series" />
+          </div>
+          <div class="espaciado">
+            <label for="repeticiones">Repeticiones</label>
+            <input type="number" name="Repeticiones" id="repeticiones" />
+          </div>
+          <div class="espaciado">
+            <label for="Descanso">Descanso</label>
+            <input type="number" name="Descanso" id="descanso" />
+          </div>
+          <button class="espaciado" type="submit">Agregar</button>
+        </fieldset>
+      </form>
+    </div>
+    <div class="listado">
+      <h1>Registro de rutinas</h1>
+      <div class="rutinas" id="rutinas"></div>
+    </div>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
